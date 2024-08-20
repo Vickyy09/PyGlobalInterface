@@ -2,13 +2,14 @@ from PythonClient import CServer
 import asyncio
 import time
 
+# CSserver.debug(True)
 def run(data):
     print(data)
     return {"hello": "world"}
 async def main():
     client = CServer('0.0.0.0',9800)
     await client.connect()
-    if await client.register("program9089"):
+    if await client.register("program908"):
         print("SUCCEFUL")
     
     for i in range(10000):

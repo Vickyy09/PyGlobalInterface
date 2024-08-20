@@ -6,3 +6,7 @@
 4. make a clean up function in handler when process didconect
 5. id client didn't register then dont let it to register function
 6. add log to the clean COROTINE
+
+7. THREAD LOG WRITTER (verbose(1~3), DEBUG(global), file async write, what write into file or not) PENDING
+8. Client Python, Proper logging (verbose(1~3), DEBUG) PENDING
+9. DEBUG THE MULTU CLIENT MODULE PENDING

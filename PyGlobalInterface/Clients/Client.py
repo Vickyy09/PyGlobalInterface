@@ -153,6 +153,8 @@ class Client:
         logger.info("START")
         while not self.__stop:
             # logger.info("CHECK FOR STOP")
+            # logger.printconsole("kkkk",Logger.V3,Logger.ERROR)
+            # logger.printfile("kjfdkjg",)
             await asyncio.sleep(0.00001)
     
 
