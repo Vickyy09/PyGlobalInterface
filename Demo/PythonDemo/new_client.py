@@ -6,7 +6,7 @@ def run(data):
     print(data)
     return {"hello": "world"}
 async def main():
-    client = CServer('0.0.0.0',9800)
+    client = CServer('127.0.0.1',9800)
     await client.connect()
     if await client.register("program_iomm"):
         print("SUCCEFUL")
